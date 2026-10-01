@@ -1,0 +1,5 @@
+- Fish don't bark
+- Dogs don't blob
+- Animal would be the crap version as it would bark, blob, caw, baa etc
+- however, we could od that with Animal in a polymorphic way and have ageneric makeNoise()
+- Why is I important here?
