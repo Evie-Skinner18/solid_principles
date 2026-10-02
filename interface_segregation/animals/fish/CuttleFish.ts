@@ -1,4 +1,4 @@
-import { Fish } from "../Fish";
+import { Fish } from "./Fish";
 
 export class CuttleFish implements Fish {
     scaleColour: string;
