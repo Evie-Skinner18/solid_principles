@@ -1,6 +1,6 @@
 import { Menu } from "./Menu";
 
-export class VegetarianMenu implements Menu {
+export class WetherspoonsMenu implements Menu {
     getVegetarianItems(): String[] {
         return ['Egg on toast', 'Tomato soup'];
     }

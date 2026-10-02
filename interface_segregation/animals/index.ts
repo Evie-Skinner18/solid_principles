@@ -1,11 +1,12 @@
-import { CuttleFish } from "./CuttleFish";
+import { CuttleFish } from "./fish/CuttleFish";
+import { Labrador } from "./dogs/Labrador";
 
-// todo chunk down the interface so different ideas are segregated
-// this will be the good one
 const scaleColour = 'silver';
 const furColour = 'red';
 
-const cuttleFish = new CuttleFish(scaleColour, furColour);
+const cuttleFish = new CuttleFish(scaleColour);
 
 cuttleFish.blob();
-cuttleFish.bark();
+
+const betsey = new Labrador(furColour);
+betsey.bark();
