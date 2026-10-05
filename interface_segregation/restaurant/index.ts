@@ -1,6 +1,8 @@
 import { WetherspoonsMenu } from "./WetherspoonsMenu";
 
-// todo this is the bad one they will discuss
+// todo segregate the interface so Vicki can see the vegan menu items on their own
+// if you get this done v quick talk with your partner about their codebase
+// does it have code that breaks this principle?
 const spoonsMenu = new WetherspoonsMenu();
 const fishMenuItems = spoonsMenu.getPescatarianItems();
 
